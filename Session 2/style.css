@@ -1,0 +1,143 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+header, main {
+    margin: auto;
+ 
+}
+
+main {
+  padding: 16px 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #566b78;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+  background-color: black;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('coverphoto.jpg');
+  background-position: center top;
+  background-size: cover;
+  max-width: none;
+  text-align: center;
+  line-height: 1.2;
+  height: 550px;
+  padding: 130px 32px;
+}
+
+/** Navbar Modifications **/
+.navbar{
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+/** Navbar Modifications **/
+
+#logo {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Use if there is still time */
+header a {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 16px 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Use if there is still time */
+
+.project-content{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 4%;
+}
+
+/* Footer */
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer h2 {
+    color: white;
+    padding: 6px;
+}
+
+.footer i{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: inherit;
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text{
+    visibility: hidden;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 6%;
+    background-color: white;
+    color: #333;
+    left:20px;
+    position: absolute;
+    z-index: 1;
+}
+
+a:hover .tooltip-text{
+    visibility: visible;
+}
+/*Footer*/
